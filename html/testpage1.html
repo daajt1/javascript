@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.scss">
+    <title>Freecode1</title>
+</head>
+<body>
+    <h1> Cartitas </h1>
+    <main>
+      <div class="contenedor">
+          <div class="card">
+              <div class="contenido">
+          <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank" rel="noopener noreferrer"> <img style = "width: 50px; height: 50px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wikipedia-logo-v2-es.svg/1200px-Wikipedia-logo-v2-es.svg.png" alt="saliendo a wikipedia">  </a> 
+              </div>
+              <div class="formcontenedor">
+                <form action = ''>
+                    <p>Seleccione una opción de Memoria</p>
+                    <input type= "radio" name="memoria" id="memoria1">16GB
+                    <input type= "radio" name="memoria" id="memoria2">32GB
+                    <input type= "radio" name="memoria" id="memoria3">64GB
+                    <br>
+                    <p>Seleccione una opción de Procesador</p>
+                    <input type= "radio" name="procesador" id="procesador1">coreDuo
+                    <input type= "radio" name="procesador" id="procesador2">tetraDuo
+                    <input type= "radio" name="procesador" id="procesador3">octaDuo
+                    <br>
+                    <p>Seleccione una opción de Chip </p>
+                    <input type= "radio" name="chip" id="chip1">Wifi 2.0
+                    <input type= "radio" name="chip" id="chip2">Wifi Max
+                    <input type= "radio" name="chip" id="chip3">Intel
+                    <br><br>
+                    <input type="button" value="Agregar Presupuesto" onclick="CrearTabladeDatos()">
+                </form>
+              </div>
+          </div>
+      </div>
+
+      <div class="poster">
+        <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Cachorro" class="poster__img">
+        <p class="poster__description">Tu mejor amigo</p>
+      </div>
+    </main>
+</body>
+</html>
